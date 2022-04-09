@@ -1,25 +1,21 @@
 #include <stdio.h>
-
 /**
- * main
+ * main - entry point
  *
- * Return: Always (Success)
+ * Description: Print lower and upper alphabet on the same line
+ * Return: 0
  */
 int main(void)
 {
-	int i;
+int c;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-               putchar(i);
-        }
+for (c = 0; c < 26; ++c)
+putchar('a' + c);
+for (c = 0; c < 26; ++c)
+putchar('A' + c);
 
-	for (i = 'A'; i <= 'Z'; i++)
-	{
-		putchar(i);
-	}
+putchar('\n');
 
-	putchar("char *\n");
-	return (0);
+return (0);
 
 }
