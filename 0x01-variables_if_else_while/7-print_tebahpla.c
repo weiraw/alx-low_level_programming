@@ -1,19 +1,17 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- * Description: Print lowercase alphabet excluding e and q
+ * Description: Print lowercase alphabet backwards
  * Return: 0
  */
 int main(void)
 {
 char c;
 
-for (c = 'a'; c <= 'z'; ++c)
-{
-if (c != 'e' && c != 'q')
+for (c = 'z'; c >= 'a'; --c)
 putchar(c);
-}
 
 putchar('\n');
 
