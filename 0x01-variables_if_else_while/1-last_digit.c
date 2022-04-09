@@ -5,7 +5,7 @@
 /**
  * main
  *
- * Return:Always sucess
+ * Return:0 Always(success)
  */
 
 int main(void)

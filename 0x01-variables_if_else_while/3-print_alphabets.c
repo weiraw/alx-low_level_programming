@@ -7,19 +7,19 @@
  */
 int main(void)
 {
-	int c;
+	int i;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-               putchar(c);
+               putchar(i);
         }
 
-	for (c = 'A'; c <= 'Z'; c++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		putchar(c);
+		putchar(i);
 	}
 
-	putchar("\n");
+	putchar("char *\n");
 	return (0);
 
 }
