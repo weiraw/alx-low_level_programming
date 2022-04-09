@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - lastd is last digit.
+ * main
  *
  * Return:Always sucess
  */
 
 int main(void)
 {
-int n; lastd;
+int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
