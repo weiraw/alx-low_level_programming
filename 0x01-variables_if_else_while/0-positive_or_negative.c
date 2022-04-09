@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints if number is positive, zero or negative.          
- *
- * Return: Always (sucess).
+ * main - prints a random number and states whether it is positive,negative, or zero.
+ * Return Always zero.
  */
 int main(void)
 {
@@ -19,6 +18,7 @@ printf("%d is positive\n", n);
 else if (n == 0)
 printf("%d is zero\n", n);
 else
+
 printf("%d is negative\n", n);
 
 return (0);
