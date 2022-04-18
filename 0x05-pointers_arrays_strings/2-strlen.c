@@ -2,12 +2,12 @@
 
 /**
  * _strlen -length of a string
- * 0s: A pointer to an int that will be changed/updated
+ * @s: A pointer to an int that will be changed/updated
  *
  * Return: void that means our answer is correct
  */
 
-int _strien(char *s)
+int _strlen(char *s)
 {
 int u;
 
