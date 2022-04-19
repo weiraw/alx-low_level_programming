@@ -1,6 +1,6 @@
 /**
  * print_rev - prints a string in reverse order
- * @s: A pointer to an int that will be changed
+ * 0s: A pointer to an int that will be changed
  *
  *Return: void which means our answer is correct
  */
